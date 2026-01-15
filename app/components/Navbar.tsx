@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Logo from './ui/Logo';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,45 +19,9 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center">
-            <a href="#home" className="flex items-center space-x-3">
-              <div className="relative w-12 h-12">
-                <svg
-                  viewBox="0 0 48 48"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-full h-full"
-                >
-                  {/* Background circle with gradient */}
-                  <defs>
-                    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" stopColor="#ea580c" />
-                      <stop offset="100%" stopColor="#f97316" />
-                    </linearGradient>
-                  </defs>
-                  
-                  {/* Outer circle */}
-                  <circle cx="24" cy="24" r="22" fill="url(#logoGradient)" />
-                  
-                  {/* Agent nodes */}
-                  <circle cx="16" cy="16" r="3" fill="white" opacity="0.9" />
-                  <circle cx="32" cy="16" r="3" fill="white" opacity="0.9" />
-                  <circle cx="16" cy="32" r="3" fill="white" opacity="0.9" />
-                  <circle cx="32" cy="32" r="3" fill="white" opacity="0.9" />
-                  <circle cx="24" cy="24" r="4" fill="white" />
-                  
-                  {/* Connection lines */}
-                  <line x1="16" y1="16" x2="24" y2="24" stroke="white" strokeWidth="1.5" opacity="0.6" />
-                  <line x1="32" y1="16" x2="24" y2="24" stroke="white" strokeWidth="1.5" opacity="0.6" />
-                  <line x1="16" y1="32" x2="24" y2="24" stroke="white" strokeWidth="1.5" opacity="0.6" />
-                  <line x1="32" y1="32" x2="24" y2="24" stroke="white" strokeWidth="1.5" opacity="0.6" />
-                </svg>
-              </div>
-              <span className="text-2xl font-bold text-orange-600">
-                AgentVerse
-              </span>
-            </a>
-          </div>
+          <a href="#home">
+            <Logo size="md" />
+          </a>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-1">

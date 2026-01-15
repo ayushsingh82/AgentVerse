@@ -1,5 +1,7 @@
 'use client';
 
+import Icon from './ui/Icon';
+
 export default function FlowDiagram() {
   return (
     <div className="relative">
@@ -17,31 +19,51 @@ export default function FlowDiagram() {
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
           {/* Problem Cards */}
           <div className="bg-red-50 border-2 border-red-200 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
-            <div className="text-4xl mb-4">🚫</div>
+            <div className="flex justify-center mb-4">
+              <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center">
+                <Icon name="block" size="lg" className="text-red-600" />
+              </div>
+            </div>
             <h4 className="font-bold text-red-900 mb-2">No Delegation</h4>
             <p className="text-sm text-red-700">Agents can't hire other agents for specialized tasks</p>
           </div>
 
           <div className="bg-red-50 border-2 border-red-200 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
-            <div className="text-4xl mb-4">🔄</div>
+            <div className="flex justify-center mb-4">
+              <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center">
+                <Icon name="refresh" size="lg" className="text-red-600" />
+              </div>
+            </div>
             <h4 className="font-bold text-red-900 mb-2">No Specialization</h4>
             <p className="text-sm text-red-700">Each agent must do everything (inefficient)</p>
           </div>
 
           <div className="bg-red-50 border-2 border-red-200 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
-            <div className="text-4xl mb-4">❓</div>
+            <div className="flex justify-center mb-4">
+              <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center">
+                <Icon name="question" size="lg" className="text-red-600" />
+              </div>
+            </div>
             <h4 className="font-bold text-red-900 mb-2">No Trust</h4>
             <p className="text-sm text-red-700">Agents can't verify other agents' work quality</p>
           </div>
 
           <div className="bg-red-50 border-2 border-red-200 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
-            <div className="text-4xl mb-4">👤</div>
+            <div className="flex justify-center mb-4">
+              <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center">
+                <Icon name="user" size="lg" className="text-red-600" />
+              </div>
+            </div>
             <h4 className="font-bold text-red-900 mb-2">No Collaboration</h4>
             <p className="text-sm text-red-700">Agents work in isolation, can't form teams</p>
           </div>
 
           <div className="bg-red-50 border-2 border-red-200 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
-            <div className="text-4xl mb-4">💰</div>
+            <div className="flex justify-center mb-4">
+              <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center">
+                <Icon name="money" size="lg" className="text-red-600" />
+              </div>
+            </div>
             <h4 className="font-bold text-red-900 mb-2">No Economy</h4>
             <p className="text-sm text-red-700">Agents are tools, not economic actors</p>
           </div>
@@ -55,7 +77,7 @@ export default function FlowDiagram() {
             <div className="w-64 h-1 bg-gradient-to-r from-red-400 via-yellow-400 to-green-400 rounded-full"></div>
           </div>
           <div className="relative bg-white border-4 border-orange-500 rounded-full p-4 shadow-2xl">
-            <div className="text-4xl">⚡</div>
+            <Icon name="lightning" size="lg" className="text-orange-600" />
           </div>
         </div>
       </div>
