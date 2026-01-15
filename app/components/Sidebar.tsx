@@ -13,9 +13,19 @@ interface SidebarProps {
 export default function Sidebar({ activeSection, onSectionChange, isOpen, onClose }: SidebarProps) {
   const navItems = [
     { 
+      id: 'home', 
+      name: 'Home', 
+      icon: 'home' as const 
+    },
+    { 
       id: 'problem-solution', 
       name: 'Problem & Solution', 
       icon: 'question' as const 
+    },
+    { 
+      id: 'architecture', 
+      name: 'Architecture', 
+      icon: 'lock' as const 
     },
     { 
       id: 'features', 
@@ -28,9 +38,19 @@ export default function Sidebar({ activeSection, onSectionChange, isOpen, onClos
       icon: 'research' as const 
     },
     { 
-      id: 'architecture', 
-      name: 'Architecture', 
-      icon: 'lock' as const 
+      id: 'marketplace', 
+      name: 'Marketplace', 
+      icon: 'briefcase' as const 
+    },
+    { 
+      id: 'discovery', 
+      name: 'Agent Discovery', 
+      icon: 'search' as const 
+    },
+    { 
+      id: 'collaboration', 
+      name: 'Agent Collaboration', 
+      icon: 'handshake' as const 
     },
   ];
 
@@ -46,13 +66,13 @@ export default function Sidebar({ activeSection, onSectionChange, isOpen, onClos
 
       {/* Sidebar */}
       <aside className={`
-        fixed left-0 top-0 h-full w-64 bg-gray-900 text-white border-r border-gray-800 z-40 overflow-y-auto
+        fixed left-0 top-0 h-full w-64 bg-black text-white border-r border-gray-900 z-40 overflow-y-auto
         transform transition-transform duration-300 ease-in-out
         ${isOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}
       `}>
         <div className="flex flex-col h-full">
           {/* Logo Section */}
-          <div className="p-6 border-b border-gray-800 flex items-center justify-between">
+          <div className="p-6 border-b border-gray-900 flex items-center justify-between">
             <button
               onClick={() => {
                 onSectionChange('home');
@@ -64,7 +84,7 @@ export default function Sidebar({ activeSection, onSectionChange, isOpen, onClos
             </button>
             <button
               onClick={onClose}
-              className="md:hidden p-2 hover:bg-gray-800 rounded-lg"
+              className="md:hidden p-2 hover:bg-gray-900 rounded-lg"
               aria-label="Close menu"
             >
               <svg
@@ -97,7 +117,7 @@ export default function Sidebar({ activeSection, onSectionChange, isOpen, onClos
                       w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all
                       ${isActive 
                         ? 'bg-orange-600 text-white shadow-lg' 
-                        : 'text-gray-300 hover:bg-gray-800 hover:text-white'
+                        : 'text-gray-300 hover:bg-gray-900 hover:text-white'
                       }
                     `}
                   >
@@ -115,8 +135,8 @@ export default function Sidebar({ activeSection, onSectionChange, isOpen, onClos
         </nav>
 
         {/* Footer in Sidebar */}
-        <div className="p-4 border-t border-gray-800">
-          <p className="text-xs text-gray-500 text-center">
+        <div className="p-4 border-t border-gray-900">
+          <p className="text-xs text-white text-center">
             © 2026 AgentVerse
           </p>
         </div>

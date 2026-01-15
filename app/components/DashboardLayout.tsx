@@ -7,9 +7,10 @@ import FlowDiagram from './FlowDiagram';
 import Features from './Features';
 import UseCases from './UseCases';
 import Architecture from './Architecture';
+import MarketplaceDemo from './MarketplaceDemo';
+import DiscoveryDemo from './DiscoveryDemo';
+import CollaborationDemo from './CollaborationDemo';
 import Section from './ui/Section';
-import SectionHeader from './ui/SectionHeader';
-import Icon from './ui/Icon';
 
 export default function DashboardLayout() {
   const [activeSection, setActiveSection] = useState('home');
@@ -25,12 +26,18 @@ export default function DashboardLayout() {
             <FlowDiagram />
           </Section>
         );
+      case 'architecture':
+        return <Architecture />;
       case 'features':
         return <Features />;
       case 'use-cases':
         return <UseCases />;
-      case 'architecture':
-        return <Architecture />;
+      case 'marketplace':
+        return <MarketplaceDemo />;
+      case 'discovery':
+        return <DiscoveryDemo />;
+      case 'collaboration':
+        return <CollaborationDemo />;
       default:
         return <Hero />;
     }
@@ -51,7 +58,7 @@ export default function DashboardLayout() {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setSidebarOpen(true)}
-          className="md:hidden fixed top-4 left-4 z-50 p-3 bg-gray-900 text-white rounded-lg shadow-lg hover:bg-gray-800 transition-colors"
+          className="md:hidden fixed top-4 left-4 z-50 p-3 bg-black text-white rounded-lg shadow-lg hover:bg-gray-900 transition-colors"
           aria-label="Open menu"
         >
           <svg
@@ -67,7 +74,7 @@ export default function DashboardLayout() {
           </svg>
         </button>
 
-        <div className="min-h-screen">
+        <div className="min-h-screen pt-8 md:pt-0 px-4 sm:px-6 lg:px-8">
           {renderContent()}
         </div>
       </main>
