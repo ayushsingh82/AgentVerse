@@ -184,20 +184,20 @@ export default function FlowDiagram() {
           <div className="mb-8">
             <div className="flex items-start gap-6">
               <div className="flex-shrink-0">
-                <div className="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center text-2xl font-bold text-indigo-600">
+                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center text-2xl font-bold text-orange-600">
                   4
                 </div>
               </div>
-              <div className="flex-1 bg-gradient-to-r from-indigo-50 to-indigo-100 rounded-xl p-6 border-2 border-indigo-200 shadow-lg">
-                <h4 className="text-xl font-bold text-indigo-900 mb-3">Verification & Trust</h4>
-                <p className="text-indigo-800 mb-4">
+              <div className="flex-1 bg-orange-50 rounded-xl p-6 border-2 border-orange-200 shadow-lg">
+                <h4 className="text-xl font-bold text-orange-900 mb-3">Verification & Trust</h4>
+                <p className="text-orange-800 mb-4">
                   Quality Assurance Agent verifies work completion. zkVerify generates cryptographic 
                   proofs. Reputation system updates on-chain. All interactions stored on Arweave.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-indigo-200 text-indigo-800 rounded-full text-sm font-medium">zkVerify Proofs</span>
-                  <span className="px-3 py-1 bg-indigo-200 text-indigo-800 rounded-full text-sm font-medium">Quality Assurance</span>
-                  <span className="px-3 py-1 bg-indigo-200 text-indigo-800 rounded-full text-sm font-medium">Arweave Storage</span>
+                  <span className="px-3 py-1 bg-orange-200 text-orange-800 rounded-full text-sm font-medium">zkVerify Proofs</span>
+                  <span className="px-3 py-1 bg-orange-200 text-orange-800 rounded-full text-sm font-medium">Quality Assurance</span>
+                  <span className="px-3 py-1 bg-orange-200 text-orange-800 rounded-full text-sm font-medium">Arweave Storage</span>
                 </div>
               </div>
             </div>
@@ -205,27 +205,27 @@ export default function FlowDiagram() {
 
           {/* Arrow */}
           <div className="flex justify-center mb-8">
-            <div className="w-1 h-12 bg-gradient-to-b from-indigo-400 to-pink-400 rounded-full"></div>
+            <div className="w-1 h-12 bg-orange-400 rounded-full"></div>
           </div>
 
           {/* Step 5: Self-Improvement */}
           <div>
             <div className="flex items-start gap-6">
               <div className="flex-shrink-0">
-                <div className="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center text-2xl font-bold text-pink-600">
+                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center text-2xl font-bold text-orange-600">
                   5
                 </div>
               </div>
-              <div className="flex-1 bg-gradient-to-r from-pink-50 to-pink-100 rounded-xl p-6 border-2 border-pink-200 shadow-lg">
-                <h4 className="text-xl font-bold text-pink-900 mb-3">Self-Improvement</h4>
-                <p className="text-pink-800 mb-4">
+              <div className="flex-1 bg-orange-50 rounded-xl p-6 border-2 border-orange-200 shadow-lg">
+                <h4 className="text-xl font-bold text-orange-900 mb-3">Self-Improvement</h4>
+                <p className="text-orange-800 mb-4">
                   Nova AI Learning Agent analyzes successful collaborations. Agents adapt strategies. 
                   Matching algorithms improve. Network gets smarter with every interaction.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-pink-200 text-pink-800 rounded-full text-sm font-medium">Nova AI Learning</span>
-                  <span className="px-3 py-1 bg-pink-200 text-pink-800 rounded-full text-sm font-medium">Adaptive Strategies</span>
-                  <span className="px-3 py-1 bg-pink-200 text-pink-800 rounded-full text-sm font-medium">Network Effects</span>
+                  <span className="px-3 py-1 bg-orange-200 text-orange-800 rounded-full text-sm font-medium">Nova AI Learning</span>
+                  <span className="px-3 py-1 bg-orange-200 text-orange-800 rounded-full text-sm font-medium">Adaptive Strategies</span>
+                  <span className="px-3 py-1 bg-orange-200 text-orange-800 rounded-full text-sm font-medium">Network Effects</span>
                 </div>
               </div>
             </div>

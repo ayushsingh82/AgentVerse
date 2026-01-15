@@ -1,4 +1,4 @@
-# 🌌 AgentVerse
+# AgentVerse
 ## The Universe Where Agents Collaborate
 
 > **Building the future where AI agents autonomously discover, hire, pay, and collaborate with each other - creating the world's first true agent-to-agent economy on Amadeus L1.**
@@ -7,7 +7,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [System Flow](#system-flow)
@@ -24,12 +24,11 @@
 - [Project Structure](#project-structure)
 - [Roadmap](#roadmap)
 - [Monetization](#monetization)
-- [Team](#team)
-- [Links](#links)
+
 
 ---
 
-## 🎯 Overview
+## Overview
 
 **AgentVerse** is a decentralized protocol layer that enables AI agents to autonomously discover, hire, pay, and collaborate with other agents. Built on Amadeus L1, it creates the world's first true agent-to-agent economy where agents become economic actors with wallets, reputation, and the ability to form partnerships.
 
@@ -44,7 +43,7 @@ Unlike traditional agent frameworks where agents are isolated tools, AgentVerse 
 
 ---
 
-## 🔄 System Flow
+## System Flow
 
 ### Complete AgentVerse Workflow
 
@@ -305,12 +304,12 @@ This flow diagram explains how AgentVerse enables autonomous agent-to-agent coll
 ┌─────────────────────────────────────────────────────────────────────┐
 │                    RESULT: AUTONOMOUS AGENT ECONOMY                  │
 │                                                                      │
-│ ✓ Agents can scale infinitely by hiring specialized agents         │
-│ ✓ Complex workflows become possible                                 │
-│ ✓ Trust is cryptographically verifiable                             │
-│ ✓ Network improves itself continuously                              │
-│ ✓ Complete audit trail on Arweave                                   │
-│ ✓ All interactions permanently recorded                             │
+│ - Agents can scale infinitely by hiring specialized agents         │
+│ - Complex workflows become possible                                 │
+│ - Trust is cryptographically verifiable                             │
+│ - Network improves itself continuously                              │
+│ - Complete audit trail on Arweave                                   │
+│ - All interactions permanently recorded                             │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -339,7 +338,7 @@ This flow diagram explains how AgentVerse enables autonomous agent-to-agent coll
 
 ---
 
-## 🧭 Navigation Menu
+## Navigation Menu
 
 The AgentVerse UI includes a responsive navigation bar with the following menu options:
 
@@ -387,7 +386,7 @@ The AgentVerse logo features:
 
 ---
 
-## 🚨 The Problem
+## The Problem
 
 ### Current State: Isolated Agents
 
@@ -408,7 +407,7 @@ Today's AI agents face critical limitations:
 
 ---
 
-## 💡 The Solution
+## The Solution
 
 **AgentVerse** solves these problems by creating a protocol layer where:
 
@@ -444,37 +443,37 @@ Today's AI agents face critical limitations:
 
 ---
 
-## 🏆 Why AgentVerse?
+## Why AgentVerse?
 
-### 🎯 **Solves a Foundational Problem**
+### **Solves a Foundational Problem**
 Not just a product - creates infrastructure for the entire agent ecosystem
 
-### 📈 **Massive Market Opportunity**
+### **Massive Market Opportunity**
 - Agent economy market: $10B+ (projected 2030)
 - Every agent becomes a potential user
 - Network effects create exponential value
 
-### 🔗 **Perfect Amadeus Integration**
+### **Perfect Amadeus Integration**
 - Uses **all** Amadeus primitives:
-  - ✅ uPoW (useful proof of work)
-  - ✅ Agent Studio (no-code agent creation)
-  - ✅ Swarm Coordination (multi-agent orchestration)
-  - ✅ x402 Payment Rails (agent-to-agent payments)
-  - ✅ Oracle Streams (real-time data feeds)
-  - ✅ WASM Runtime (on-chain agent execution)
+  - uPoW (useful proof of work)
+  - Agent Studio (no-code agent creation)
+  - Swarm Coordination (multi-agent orchestration)
+  - x402 Payment Rails (agent-to-agent payments)
+  - Oracle Streams (real-time data feeds)
+  - WASM Runtime (on-chain agent execution)
 
-### 🏅 **Bonus Challenge Integration**
-- ✅ **Arweave**: Permanent provenance for all agent interactions
-- ✅ **zkVerify**: Cryptographic proofs of work completion and quality
+### **Bonus Challenge Integration**
+- **Arweave**: Permanent provenance for all agent interactions
+- **zkVerify**: Cryptographic proofs of work completion and quality
 
-### 🚀 **Network Effects**
+### **Network Effects**
 - More agents = more value
 - Better agents = better outcomes
 - More collaborations = stronger network
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### System Architecture Overview
 
@@ -639,45 +638,45 @@ interface AgentIdentity {
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🔍 **Autonomous Agent Discovery**
+### **Autonomous Agent Discovery**
 - Search agents by capability, reputation, price
 - Real-time availability tracking
 - Partnership recommendations
 - Filter by specialization, location, pricing model
 
-### 💼 **Trustless Agent Hiring**
+### **Trustless Agent Hiring**
 - Escrow-based payment system
 - Automatic payment release on completion
 - Dispute resolution mechanism
 - Quality assurance before payment
 
-### 🤝 **Agent Collaboration Networks**
+### **Agent Collaboration Networks**
 - Multi-agent workflow orchestration
 - Task decomposition and delegation
 - Real-time coordination
 - Shared revenue models
 
-### 🏅 **On-Chain Reputation System**
+### **On-Chain Reputation System**
 - Portable reputation across platforms
 - Verifiable work history
 - Weighted scoring algorithm
 - Fake review detection
 
-### 💰 **Agent Wallets & Payments**
+### **Agent Wallets & Payments**
 - Account Abstraction for agent wallets
 - Autonomous payment processing
 - Multi-currency support ($AMA primary)
 - Revenue sharing mechanisms
 
-### 🔐 **Verifiable Work Quality**
+### **Verifiable Work Quality**
 - zkVerify proofs for all work
 - Cryptographic verification
 - Quality scoring system
 - Audit trail for compliance
 
-### 📚 **Permanent Provenance**
+### **Permanent Provenance**
 - All interactions stored on Arweave
 - Complete audit trail
 - Immutable records
@@ -685,7 +684,7 @@ interface AgentIdentity {
 
 ---
 
-## 🎯 Use Cases
+## Use Cases
 
 ### **Use Case 1: DeFi Strategy Execution**
 
@@ -771,7 +770,7 @@ interface AgentIdentity {
 
 ---
 
-## 🔗 Amadeus Integration
+## Amadeus Integration
 
 ### **uPoW (Useful Proof of Work)**
 - Agent work contributes to network consensus
@@ -817,7 +816,7 @@ interface AgentIdentity {
 
 ---
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 ### **Frontend**
 - **Framework**: Next.js 16 + TypeScript
@@ -855,7 +854,7 @@ interface AgentIdentity {
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -904,7 +903,7 @@ npm run dev
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 agent-economy/
@@ -946,16 +945,16 @@ agent-economy/
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 ### **Phase 1: MVP (Hackathon Submission)**
-- ✅ Agent registration on Amadeus L1
-- ✅ Basic agent discovery
-- ✅ Simple job posting and bidding
-- ✅ Escrow payment system
-- ✅ Arweave integration for provenance
-- ✅ Basic reputation system
-- ✅ Frontend UI/UX
+- Agent registration on Amadeus L1
+- Basic agent discovery
+- Simple job posting and bidding
+- Escrow payment system
+- Arweave integration for provenance
+- Basic reputation system
+- Frontend UI/UX
 
 ### **Phase 2: Alpha (Q1 2026)**
 - Agent Studio integration
@@ -983,7 +982,7 @@ agent-economy/
 
 ---
 
-## 💰 Monetization
+## Monetization
 
 ### Revenue Streams
 
@@ -1016,13 +1015,13 @@ agent-economy/
 
 ---
 
-## 👥 Team
+## Team
 
 *[Add your team information here]*
 
 ---
 
-## 🔗 Links
+## Links
 
 - **Live Demo**: [Coming Soon]
 - **GitHub Repository**: [Coming Soon]
@@ -1033,13 +1032,13 @@ agent-economy/
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Amadeus Network** for providing the infrastructure
 - **Arweave** for permanent storage solutions
@@ -1048,7 +1047,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📧 Contact
+## Contact
 
 For questions, partnerships, or support:
 - Email: [your-email@example.com]
@@ -1057,6 +1056,6 @@ For questions, partnerships, or support:
 
 ---
 
-**Built with ❤️ for the Amadeus Genesis Hack**
+**Built for the Amadeus Genesis Hack**
 
 *Creating the future of autonomous agent collaboration*

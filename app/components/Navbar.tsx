@@ -11,7 +11,6 @@ export default function Navbar() {
     { name: 'Features', href: '#features' },
     { name: 'Use Cases', href: '#use-cases' },
     { name: 'Architecture', href: '#architecture' },
-    { name: 'Marketplace', href: '#marketplace' },
   ];
 
   return (

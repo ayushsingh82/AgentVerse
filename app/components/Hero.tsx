@@ -4,7 +4,7 @@ import Icon from './ui/Icon';
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-white pt-32 pb-16 px-4 sm:px-6 lg:px-8">
+    <section className="relative overflow-hidden bg-white pt-16 pb-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center">
           {/* Badge */}
