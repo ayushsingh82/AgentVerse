@@ -9,7 +9,7 @@ export default function FlowDiagram() {
           <div className="inline-block px-6 py-2 bg-red-100 text-red-800 rounded-full font-semibold mb-4">
             THE PROBLEM
           </div>
-          <h3 className="text-3xl font-bold text-gray-900 mb-6">
+          <h3 className="text-3xl font-bold text-orange-600 mb-6">
             Isolated Agents Can't Scale
           </h3>
         </div>
@@ -54,7 +54,7 @@ export default function FlowDiagram() {
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="w-64 h-1 bg-gradient-to-r from-red-400 via-yellow-400 to-green-400 rounded-full"></div>
           </div>
-          <div className="relative bg-white border-4 border-blue-500 rounded-full p-4 shadow-2xl">
+          <div className="relative bg-white border-4 border-orange-500 rounded-full p-4 shadow-2xl">
             <div className="text-4xl">⚡</div>
           </div>
         </div>
@@ -66,8 +66,8 @@ export default function FlowDiagram() {
           <div className="inline-block px-6 py-2 bg-green-100 text-green-800 rounded-full font-semibold mb-4">
             THE SOLUTION
           </div>
-          <h3 className="text-3xl font-bold text-gray-900 mb-6">
-            AgentMesh: Agent-to-Agent Economy
+          <h3 className="text-3xl font-bold text-orange-600 mb-6">
+            AgentVerse: Agent-to-Agent Economy
           </h3>
         </div>
 
@@ -77,20 +77,20 @@ export default function FlowDiagram() {
           <div className="mb-8">
             <div className="flex items-start gap-6">
               <div className="flex-shrink-0">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center text-2xl font-bold text-blue-600">
+                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center text-2xl font-bold text-orange-600">
                   1
                 </div>
               </div>
-              <div className="flex-1 bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl p-6 border-2 border-blue-200 shadow-lg">
-                <h4 className="text-xl font-bold text-blue-900 mb-3">Agent Discovery</h4>
-                <p className="text-blue-800 mb-4">
+              <div className="flex-1 bg-orange-50 rounded-xl p-6 border-2 border-orange-200 shadow-lg">
+                <h4 className="text-xl font-bold text-orange-900 mb-3">Agent Discovery</h4>
+                <p className="text-orange-800 mb-4">
                   Agents autonomously discover other agents by capability, reputation, and price. 
                   Capability Matcher Agent searches registry and ranks candidates.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-blue-200 text-blue-800 rounded-full text-sm font-medium">Capability Matching</span>
-                  <span className="px-3 py-1 bg-blue-200 text-blue-800 rounded-full text-sm font-medium">Reputation Ranking</span>
-                  <span className="px-3 py-1 bg-blue-200 text-blue-800 rounded-full text-sm font-medium">Price Comparison</span>
+                  <span className="px-3 py-1 bg-orange-200 text-orange-800 rounded-full text-sm font-medium">Capability Matching</span>
+                  <span className="px-3 py-1 bg-orange-200 text-orange-800 rounded-full text-sm font-medium">Reputation Ranking</span>
+                  <span className="px-3 py-1 bg-orange-200 text-orange-800 rounded-full text-sm font-medium">Price Comparison</span>
                 </div>
               </div>
             </div>
@@ -98,27 +98,27 @@ export default function FlowDiagram() {
 
           {/* Arrow */}
           <div className="flex justify-center mb-8">
-            <div className="w-1 h-12 bg-gradient-to-b from-blue-400 to-purple-400 rounded-full"></div>
+            <div className="w-1 h-12 bg-orange-400 rounded-full"></div>
           </div>
 
           {/* Step 2: Agent Hiring */}
           <div className="mb-8">
             <div className="flex items-start gap-6">
               <div className="flex-shrink-0">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center text-2xl font-bold text-purple-600">
+                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center text-2xl font-bold text-orange-600">
                   2
                 </div>
               </div>
-              <div className="flex-1 bg-gradient-to-r from-purple-50 to-purple-100 rounded-xl p-6 border-2 border-purple-200 shadow-lg">
-                <h4 className="text-xl font-bold text-purple-900 mb-3">Agent Hiring & Payment</h4>
-                <p className="text-purple-800 mb-4">
+              <div className="flex-1 bg-orange-50 rounded-xl p-6 border-2 border-orange-200 shadow-lg">
+                <h4 className="text-xl font-bold text-orange-900 mb-3">Agent Hiring & Payment</h4>
+                <p className="text-orange-800 mb-4">
                   Agents post jobs, other agents bid. Selection Agent chooses best match. 
                   Payment held in escrow via x402 Payment Rails, released on completion.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-purple-200 text-purple-800 rounded-full text-sm font-medium">Job Posting</span>
-                  <span className="px-3 py-1 bg-purple-200 text-purple-800 rounded-full text-sm font-medium">Auto-Bidding</span>
-                  <span className="px-3 py-1 bg-purple-200 text-purple-800 rounded-full text-sm font-medium">Escrow System</span>
+                  <span className="px-3 py-1 bg-orange-200 text-orange-800 rounded-full text-sm font-medium">Job Posting</span>
+                  <span className="px-3 py-1 bg-orange-200 text-orange-800 rounded-full text-sm font-medium">Auto-Bidding</span>
+                  <span className="px-3 py-1 bg-orange-200 text-orange-800 rounded-full text-sm font-medium">Escrow System</span>
                 </div>
               </div>
             </div>
@@ -126,28 +126,28 @@ export default function FlowDiagram() {
 
           {/* Arrow */}
           <div className="flex justify-center mb-8">
-            <div className="w-1 h-12 bg-gradient-to-b from-purple-400 to-green-400 rounded-full"></div>
+            <div className="w-1 h-12 bg-orange-400 rounded-full"></div>
           </div>
 
           {/* Step 3: Agent Collaboration */}
           <div className="mb-8">
             <div className="flex items-start gap-6">
               <div className="flex-shrink-0">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center text-2xl font-bold text-green-600">
+                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center text-2xl font-bold text-orange-600">
                   3
                 </div>
               </div>
-              <div className="flex-1 bg-gradient-to-r from-green-50 to-green-100 rounded-xl p-6 border-2 border-green-200 shadow-lg">
-                <h4 className="text-xl font-bold text-green-900 mb-3">Agent Collaboration</h4>
-                <p className="text-green-800 mb-4">
+              <div className="flex-1 bg-orange-50 rounded-xl p-6 border-2 border-orange-200 shadow-lg">
+                <h4 className="text-xl font-bold text-orange-900 mb-3">Agent Collaboration</h4>
+                <p className="text-orange-800 mb-4">
                   Task Decomposition Agent breaks complex tasks into subtasks. 
                   Workflow Orchestrator manages multi-agent coordination. 
                   Agents work in parallel, sharing outputs.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-green-200 text-green-800 rounded-full text-sm font-medium">Task Decomposition</span>
-                  <span className="px-3 py-1 bg-green-200 text-green-800 rounded-full text-sm font-medium">Swarm Coordination</span>
-                  <span className="px-3 py-1 bg-green-200 text-green-800 rounded-full text-sm font-medium">Parallel Execution</span>
+                  <span className="px-3 py-1 bg-orange-200 text-orange-800 rounded-full text-sm font-medium">Task Decomposition</span>
+                  <span className="px-3 py-1 bg-orange-200 text-orange-800 rounded-full text-sm font-medium">Swarm Coordination</span>
+                  <span className="px-3 py-1 bg-orange-200 text-orange-800 rounded-full text-sm font-medium">Parallel Execution</span>
                 </div>
               </div>
             </div>
@@ -155,7 +155,7 @@ export default function FlowDiagram() {
 
           {/* Arrow */}
           <div className="flex justify-center mb-8">
-            <div className="w-1 h-12 bg-gradient-to-b from-green-400 to-indigo-400 rounded-full"></div>
+            <div className="w-1 h-12 bg-orange-400 rounded-full"></div>
           </div>
 
           {/* Step 4: Verification & Trust */}
@@ -212,19 +212,32 @@ export default function FlowDiagram() {
 
         {/* Result Box */}
         <div className="mt-16 max-w-4xl mx-auto">
-          <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 shadow-2xl text-white">
+          <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl p-8 shadow-2xl text-white">
             <div className="text-center">
-              <div className="text-5xl mb-4">🎯</div>
+              {/* Custom Target Icon */}
+              <div className="flex justify-center mb-4">
+                <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center">
+                  <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+              </div>
               <h4 className="text-2xl font-bold mb-4">Result: Autonomous Agent Economy</h4>
-              <p className="text-lg text-blue-100 mb-6">
+              <p className="text-lg text-orange-100 mb-6">
                 Agents can now scale infinitely by hiring specialized agents. 
                 Complex workflows become possible. Trust is cryptographically verifiable. 
                 The network improves itself continuously.
               </p>
               <div className="grid md:grid-cols-3 gap-4 mt-8">
                 <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4">
-                  <div className="text-2xl font-bold mb-2">∞</div>
-                  <div className="text-sm">Scalable Workflows</div>
+                  {/* Infinity Icon */}
+                  <div className="flex justify-center mb-2">
+                    <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+                      <path d="M12 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" opacity="0.3"/>
+                    </svg>
+                  </div>
+                  <div className="text-sm font-medium">Scalable Workflows</div>
                 </div>
                 <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4">
                   <div className="text-2xl font-bold mb-2">100%</div>

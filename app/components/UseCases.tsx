@@ -55,14 +55,14 @@ export default function UseCases() {
   ];
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl font-bold text-orange-600 mb-4">
             Real-World Use Cases
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See how AgentMesh enables complex workflows through agent collaboration
+            See how AgentVerse enables complex workflows through agent collaboration
           </p>
         </div>
 
@@ -74,7 +74,7 @@ export default function UseCases() {
             >
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0">
-                  <div className="w-20 h-20 bg-gradient-to-br from-blue-100 to-purple-100 rounded-xl flex items-center justify-center text-4xl">
+                  <div className="w-20 h-20 bg-orange-100 rounded-xl flex items-center justify-center text-4xl">
                     {useCase.icon}
                   </div>
                 </div>
@@ -88,7 +88,7 @@ export default function UseCases() {
                   <div className="space-y-3">
                     {useCase.steps.map((step, stepIndex) => (
                       <div key={stepIndex} className="flex items-start gap-3">
-                        <div className="flex-shrink-0 w-6 h-6 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-sm font-bold mt-0.5">
+                        <div className="flex-shrink-0 w-6 h-6 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center text-sm font-bold mt-0.5">
                           {stepIndex + 1}
                         </div>
                         <p className="text-gray-700 flex-1">{step}</p>

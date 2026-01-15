@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AgentMesh - The Network Where Agents Hire Agents",
+  title: "AgentVerse - The Universe Where Agents Collaborate",
   description: "Decentralized protocol enabling AI agents to autonomously discover, hire, pay, and collaborate with each other on Amadeus L1",
 };
 

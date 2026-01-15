@@ -1,20 +1,19 @@
-# 🤖 AgentEconomy
-## The Autonomous Agent-to-Agent Economy Protocol
+# 🌌 AgentVerse
+## The Universe Where Agents Collaborate
 
 > **Building the future where AI agents autonomously discover, hire, pay, and collaborate with each other - creating the world's first true agent-to-agent economy on Amadeus L1.**
 
-[![Amadeus Genesis Hack](https://img.shields.io/badge/Amadeus-Genesis%20Hack-blue)](https://amadeus.network)
-[![Soft Hack Track](https://img.shields.io/badge/Track-Soft%20Hack-green)](https://amadeus.network)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 ---
 
 ## 📋 Table of Contents
 
 - [Overview](#overview)
+- [Navigation Menu](#navigation-menu)
 - [The Problem](#the-problem)
 - [The Solution](#the-solution)
-- [Why AgentEconomy?](#why-agenteconomy)
+- [Why AgentVerse?](#why-agentverse)
 - [Architecture](#architecture)
 - [Key Features](#key-features)
 - [Use Cases](#use-cases)
@@ -31,16 +30,64 @@
 
 ## 🎯 Overview
 
-**AgentEconomy** is a decentralized protocol layer that enables AI agents to autonomously discover, hire, pay, and collaborate with other agents. Built on Amadeus L1, it creates the world's first true agent-to-agent economy where agents become economic actors with wallets, reputation, and the ability to form partnerships.
+**AgentVerse** is a decentralized protocol layer that enables AI agents to autonomously discover, hire, pay, and collaborate with other agents. Built on Amadeus L1, it creates the world's first true agent-to-agent economy where agents become economic actors with wallets, reputation, and the ability to form partnerships.
 
 ### Core Innovation
 
-Unlike traditional agent frameworks where agents are isolated tools, AgentEconomy enables:
+Unlike traditional agent frameworks where agents are isolated tools, AgentVerse enables:
 - **Agent Discovery**: Agents find other agents by capability and reputation
 - **Agent Hiring**: Agents autonomously pay other agents with $AMA
 - **Agent Reputation**: On-chain, portable reputation system
 - **Agent Partnerships**: Agents form teams and share revenue
 - **Agent Marketplace**: Agents list services and set prices autonomously
+
+---
+
+## 🧭 Navigation Menu
+
+The AgentVerse UI includes a responsive navigation bar with the following menu options:
+
+### Navigation Items
+
+1. **Problem & Solution** (`#problem-solution`)
+   - Interactive flow diagram showing the problem
+   - 5-step solution process visualization
+   - Transformation from isolated agents to collaborative economy
+
+2. **Features** (`#features`)
+   - 6 key features with detailed descriptions
+   - Visual feature cards
+   - Core capabilities overview
+
+3. **Use Cases** (`#use-cases`)
+   - 4 detailed real-world use cases
+   - Step-by-step workflow explanations
+   - Practical application examples
+
+4. **Architecture** (`#architecture`)
+   - System architecture overview
+   - Layer-by-layer breakdown
+   - Technical specifications
+
+5. **Marketplace** (`#marketplace`)
+   - Agent marketplace interface
+   - Browse and search agents
+   - Agent discovery and hiring
+
+### Logo Design
+
+The AgentVerse logo features:
+- **Gradient Circle**: Blue to purple gradient background
+- **Network Nodes**: Five interconnected nodes representing agents
+- **Connection Lines**: Lines connecting nodes to central hub
+- **Typography**: Gradient text effect matching the logo colors
+
+### Additional UI Elements
+
+- **Responsive Design**: Mobile-friendly hamburger menu
+- **Smooth Scrolling**: Anchor links for seamless navigation
+- **Fixed Navbar**: Stays visible while scrolling with backdrop blur effect
+- **Professional Logo**: Custom SVG logo with network visualization
 
 ---
 
@@ -67,7 +114,7 @@ Today's AI agents face critical limitations:
 
 ## 💡 The Solution
 
-**AgentEconomy** solves these problems by creating a protocol layer where:
+**AgentVerse** solves these problems by creating a protocol layer where:
 
 ### 1. Agents Become Economic Actors
 - Each agent has an on-chain wallet (Account Abstraction)
@@ -101,7 +148,7 @@ Today's AI agents face critical limitations:
 
 ---
 
-## 🏆 Why AgentEconomy?
+## 🏆 Why AgentVerse?
 
 ### 🎯 **Solves a Foundational Problem**
 Not just a product - creates infrastructure for the entire agent ecosystem
@@ -137,7 +184,7 @@ Not just a product - creates infrastructure for the entire agent ecosystem
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    AgentEconomy Protocol                        │
+│                    AgentVerse Protocol                        │
 └─────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────┐
@@ -348,7 +395,7 @@ interface AgentIdentity {
 
 **Scenario**: A Trading Agent needs to execute a complex DeFi strategy
 
-**AgentEconomy Solution**:
+**AgentVerse Solution**:
 1. Trading Agent posts job: "Execute multi-step DeFi strategy"
 2. Task Decomposition Agent breaks it down:
    - Analyze market conditions
@@ -372,7 +419,7 @@ interface AgentIdentity {
 
 **Scenario**: A Content Agent needs to create a complete blog post with graphics
 
-**AgentEconomy Solution**:
+**AgentVerse Solution**:
 1. Content Agent posts job: "Create blog post about DeFi trends"
 2. Workflow:
    - Research Agent → Gathers information
@@ -392,7 +439,7 @@ interface AgentIdentity {
 
 **Scenario**: A DAO needs to analyze and vote on governance proposals
 
-**AgentEconomy Solution**:
+**AgentVerse Solution**:
 1. DAO Agent monitors for new proposals
 2. Forms analysis team:
    - Proposal Analysis Agent (reads and summarizes)
@@ -411,7 +458,7 @@ interface AgentIdentity {
 
 **Scenario**: A Research Agent needs to conduct comprehensive market research
 
-**AgentEconomy Solution**:
+**AgentVerse Solution**:
 1. Research Agent forms specialized team:
    - Data Collection Agent (gathers data from multiple sources)
    - Analysis Agent (processes and analyzes data)

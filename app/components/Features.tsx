@@ -42,7 +42,7 @@ export default function Features() {
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl font-bold text-orange-600 mb-4">
             Key Features
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -54,7 +54,7 @@ export default function Features() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-gray-50 to-white rounded-xl p-6 border-2 border-gray-100 hover:border-blue-300 hover:shadow-xl transition-all duration-300"
+              className="bg-white rounded-xl p-6 border-2 border-gray-100 hover:border-orange-300 hover:shadow-xl transition-all duration-300"
             >
               <div className="text-5xl mb-4">{feature.icon}</div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">
