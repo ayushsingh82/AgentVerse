@@ -7,6 +7,8 @@
 
 ---
 
+Pitch deck - https://docs.google.com/document/d/1e7l_6S4RQFGTvyGTmbuMwWPN-2BaF5KZU6Uj3c6-OKw/edit?tab=t.0
+
 ## Table of Contents
 
 - [Overview](#overview)
